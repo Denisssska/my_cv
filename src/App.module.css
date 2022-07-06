@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*height: 100%;*/
 }
 
 body {
@@ -12,8 +11,9 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: 100%;
     font-size: 1rem;
+    line-height: 1.75;
     font-family: 'Smooch', cursive;
     /*font-family: 'Trispace', sans-serif;*/
     /*font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    line-height: 1.75;
+
 }

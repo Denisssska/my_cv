@@ -1,27 +1,20 @@
 .border {
     min-width: 200px;
-
-    /*padding-top: 15%;*/
+    max-width: 100%;
     display: flex;
-    flex-wrap: wrap;
-
 }
 
 .border div {
     min-width: 50px;
-    flex-wrap: wrap;
-    padding-top: 7%;
+    padding-top: 5%;
 }
 
 .text {
+    width: 70%;
     padding-left: 5%;
     padding-right: 5%;
     background: inherit;
-    flex-grow: 3;
-    /*padding: 0 6%;*/
     align-self: center;
-
-
 }
 
 .text h1 {
@@ -30,8 +23,8 @@
 }
 
 .img {
+    width: 30%;
     background: #2b2c2c;
-    flex-grow: 1;
 }
 
 .profile {
@@ -66,11 +59,8 @@
 
 .img img {
     max-height: 50%;
-    /*position: relative;*/
     display: block;
     border-radius: 100%;
-    /*max-width: 40%;*/
-    /*height: 50%;*/
     margin: 25% auto;
 }
 
