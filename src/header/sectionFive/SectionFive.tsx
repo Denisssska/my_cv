@@ -4,19 +4,54 @@ import c from './sectionFive.module.css';
 export const SectionFive = () => {
     return (
         <div className={c.container}>
-            <div className={c.skills}>
-                <h1>Contacts</h1>
-                <div className={c.inputs}>
-                    <div><input type="text"/></div>
-                    <div><input type="text"/></div>
-                    <div><textarea></textarea></div>
+            <div className={c.border}>
+                <div className={c.intro}>
+                    <h1>education</h1>
+                    <p>Lazy isn't in my vocabulary</p>
                 </div>
-                <div>
-                    <button className={c.button}>Send</button>
+                <div className={c.text}>
+                    <div className={c.RightContainer}>
+                        <div className={c.boxLine}>
+                            <div className={c.number}>
+                                <div className={c.timePoint}></div>
+                            </div>
+                            <div className={c.textInBox}>
+                                <div className={c.timeWork}>2007-2015</div>
+                                <h1 className={c.workPlace}>Belarusian State agrarian University</h1>
+                                <h4 className={c.timeWorkTitle}>Mechanical Engineer</h4>
+                            </div>
+                            <div className={c.about}><p>Technical support of agricultural production processes.</p>
+                            </div>
+                        </div>
+                        <div className={c.boxLine}>
+                            <div className={c.number}>
+                                <div className={c.timePoint}></div>
+                            </div>
+                            <div className={c.textInBox}>
+                                <div className={c.timeWork}>2007-2015</div>
+                                <h1 className={c.workPlace}>Belarusian State agrarian University</h1>
+                                <h4 className={c.timeWorkTitle}>Mechanical Engineer</h4>
+                            </div>
+                            <div className={c.about}><p>Technical support of agricultural production processes.</p>
+                            </div>
+                        </div>
+                        <div className={c.boxLine}>
+                            <div className={c.number}>
+                                <div className={c.timePoint}></div>
+                            </div>
+                            <div className={c.textInBox}>
+                                <div className={c.timeWork}>2007-2015</div>
+                                <h1 className={c.workPlace}>Belarusian State agrarian University</h1>
+                                <h4 className={c.timeWorkTitle}>Mechanical Engineer</h4>
+                            </div>
+                            <div className={c.about}><p>Technical support of agricultural production processes.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     );
 };
 

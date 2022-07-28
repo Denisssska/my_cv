@@ -1,34 +1,122 @@
-.container {
-    max-width: 80%;
-    margin: 0 auto;
-    background-color: silver;
+.border {
+    display: flex;
+    justify-content: center;
+    background: #2d2e2e;
 }
 
-.skills {
-    text-align: center;
-    margin: 0 auto;
+@media all and (max-width: 1200px) {
+    .border {
+        display: block;
+
+    }
+}
+
+.timePoint {
+    box-shadow: 0 0 0 6px #2d2e2e;
+    background: #e0a80d;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    /*left: -31px; */
+    left: 0;
+    top: 3px;
+    border-radius: 50%;
+}
+
+.workPlace {
+    margin-bottom: 0.4rem;
+}
+
+.timeWork {
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    opacity: .6;
+    font-size: 0.7rem;
 
 }
 
-.skills h1 {
+.timeWorkTitle {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    opacity: .6;
+
+}
+
+.boxLine {
     margin: 0;
-    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.7125rem;
+}
+
+@media all and (max-width: 1200px) {
+    .boxLine {
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+}
+
+.textInBox {
+    margin-left: 1%;
+}
+
+.textInBox h1 {
+    /*width: 2.8rem;*/
+    color: #979899;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.intro {
+    padding-top: 5%;
+    width: 30%;
+    background: #2b2c2c;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: right;
 
 }
 
-.button {
-    margin-bottom: 20px;
+@media all and (max-width: 1200px) {
+    .intro {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #404242;
+        border-bottom: 1px solid #404242;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
 }
 
-.inputs div {
-    margin: 10px auto;
-    max-width: 60%;
-    min-width: 276px;
+.intro h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
-.inputs div input, textarea {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
+.text {
+    padding-top: 5%;
+    width: 70%;
+    background: inherit;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
 }
+
+@media all and (max-width: 1200px) {
+    .text {
+        width: 100%;
+        text-align: center;
+        /*border-top: 1px solid #404242;*/
+        /*border-bottom: 1px solid #404242;*/
+    }
+}
+
+.about p {
+    margin-left: 3%;
+}
+

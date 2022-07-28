@@ -1,24 +1,41 @@
 .border {
-    min-width: 200px;
-    max-width: 100%;
     display: flex;
     justify-content: center;
     background: #2d2e2e;
+}
 
+@media all and (max-width: 1200px) {
+    .border {
+        display: block;
+        text-align: center;
+        background-color: #292a2a;
+    }
 }
 
 .border div {
 
     /*max-width: 80%;*/
     /*padding-top: 5%;*/
-    /*padding-bottom: 5%;*/
+    padding-bottom: 5%;
+}
+
+@media all and (max-width: 1200px) {
+    .border div {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .RightContainer {
-
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+@media all and (max-width: 1200px) {
+    .RightContainer {
+        display: block;
+    }
 }
 
 .left, .right {
@@ -44,8 +61,12 @@
     padding-bottom: 2.7125rem;
 }
 
-.textInBox {
+@media all and (max-width: 1200px) {
+    .box {
+        display: block;
 
+        border-bottom: 1px solid #404242;
+    }
 }
 
 .textInBox h1 {
@@ -57,6 +78,15 @@
     font-weight: 600;
 }
 
+@media all and (max-width: 1200px) {
+    .textInBox h1 {
+        margin: 0 auto;
+        line-height: 1;
+        border-top: 1px solid #404242;
+        border-bottom: 1px solid #404242;
+    }
+}
+
 .intro {
     padding-top: 5%;
     width: 30%;
@@ -64,6 +94,14 @@
     padding-left: 5%;
     padding-right: 5%;
     text-align: right;
+}
+
+@media all and (max-width: 1200px) {
+    .intro {
+        background-color: #2d2e2e;
+        border-top: 1px solid #404242;
+        border-bottom: 1px solid #404242;
+    }
 }
 
 .intro h1 {

@@ -8,13 +8,12 @@ export const Section = () => {
         <div className={c.border}>
 
             <div className={c.img}>
-                <img src={img} alt="photo"/>
-
+                <img src={img} alt="avatar"/>
             </div>
             <div className={c.text}>
-
                 <h1 className={c.name}>Denis</h1>
                 <h1 className={c.surname}>YARMOSHKO</h1>
+
                 <div className={c.profile}>
                     <h3>Web Developer & Frontend Expert</h3>
                     <div className={c.soc}>
@@ -56,28 +55,31 @@ export const Section = () => {
                 <hr className={c.hr}/>
 
                 <div className={c.navigation}>
-                    <div>
-                        <h4>Location</h4>
-                        <address>Minsk, BLR</address>
+                    <div className={c.contacts}>
+                        <div>
+                            <h4>Location</h4>
+                            <address>Minsk, BLR</address>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+375 29 574-39-21</p></div>
                     </div>
-                    <div>
-                        <h4>Phone</h4>
-                        <p>+375 29 574-39-21</p>
-                    </div>
-                    <div>
-                        <h4>Web</h4>
-                        <a href="#">
+                    <div className={c.contacts}>
+                        <div>
+                            <h4>Web</h4>
+                            <a href="#">
 
-                            <p>empty</p>
-                        </a>
+                                <p>empty</p>
+                            </a>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="#">
 
-                    </div>
-                    <div>
-                        <h4>Email</h4>
-                        <a href="#">
+                                <p>yarmoshkoden18m@gmail.com</p>
+                            </a>
+                        </div>
 
-                            <p>yarmoshkoden18m@gmail.com</p>
-                        </a>
                     </div>
                 </div>
             </div>

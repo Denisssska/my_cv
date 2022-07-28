@@ -1,12 +1,20 @@
 .border {
-    min-width: 200px;
-    max-width: 100%;
     display: flex;
 }
 
-.border div {
-    min-width: 50px;
-    padding-top: 5%;
+@media screen and (max-width: 1200px) {
+    .border {
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .border div {
+        width: 100%;
+        padding: 3% 0;
+    }
 }
 
 .text {
@@ -17,9 +25,24 @@
     align-self: center;
 }
 
+@media all and (max-width: 1200px) {
+    .text {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 .text h1 {
     line-height: 0.91;
     font-size: 4.8rem;
+}
+
+@media all and (max-width: 1200px) {
+    .text h1 {
+        font-size: 2.8rem;
+        line-height: 1;
+    }
 }
 
 .img {
@@ -27,12 +50,28 @@
     background: #2b2c2c;
 }
 
+@media all and (max-width: 1200px) {
+    .img {
+        margin: 0;
+        width: 100%;
+        /*position: absolute;*/
+    }
+}
+
 .profile {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     line-height: 4;
+}
 
+@media all and (max-width: 1200px) {
+    .profile {
+        display: block;
+        margin: 0;
+        width: 100%;
+        line-height: 2;
+    }
 }
 
 .soc a {
@@ -53,15 +92,23 @@
     color: #e0a80d;
     text-transform: uppercase;
     font-weight: 700;
-
-
 }
+
 
 .img img {
     max-height: 50%;
     display: block;
     border-radius: 100%;
     margin: 25% auto;
+}
+
+@media all and (max-width: 1200px) {
+    .img img {
+        align-items: center;
+        width: 30%;
+        margin: 0 auto;
+
+    }
 }
 
 .hr {
@@ -77,6 +124,46 @@
     justify-content: space-between;
     line-height: 4;
     text-align: center;
+
+}
+
+@media all and (max-width: 1200px) {
+    .navigation {
+        line-height: 1.5;
+        display: block;
+    }
+}
+
+.contacts {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 600px) {
+    .contacts {
+        display: block;
+    }
+}
+
+.contacts:first-child {
+    padding-right: 8%;
+}
+
+@media all and (max-width: 1200px) {
+    .contacts:first-child {
+        padding-right: 0;
+    }
+}
+
+.contacts:last-child {
+    padding-left: 8%;
+}
+
+@media all and (max-width: 1200px) {
+    .contacts:last-child {
+        padding-left: 0;
+    }
 }
 
 .navigation div a {
@@ -89,3 +176,4 @@
     cursor: pointer;
     transition: transform 2s ease 0.7s, opacity 1.2s ease 0.7s;
 }
+

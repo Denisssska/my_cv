@@ -6,8 +6,8 @@ export const SectionThree = () => {
         <div className={c.container}>
             <div className={c.border}>
                 <div className={c.intro}>
-                    <h1>INTRO</h1>
-                    <p>What i am all about</p>
+                    <h1>EXPERTISE</h1>
+                    <p>Batman would be jealous.</p>
                 </div>
                 <div className={c.text}>
                     <div className={c.RightContainer}>

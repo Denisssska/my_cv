@@ -1,46 +1,188 @@
-.container {
-    max-width: 80%;
-    margin: 0 auto;
-    background-color: dimgray;
-}
-
-.skills {
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-.skills h1 {
-    margin: 0;
-    padding: 20px 0;
-
-}
-
-.skills div h2 {
-    margin-bottom: 0;
-    padding-bottom: 10px;
-}
-
-.button {
-    margin-bottom: 20px;
-}
-
-.inputs div {
-    margin-top: 10px;
-}
-
-.logo {
+.border {
     display: flex;
     justify-content: center;
-    max-width: 80%;
-    margin: 0 auto;
-    background-color: dimgray;
+    background: #2b2c2c;
 }
 
-.logo div {
-    background-color: darkorange;
-    height: 60px;
-    width: 10%;
-    margin-left: 10px;
+@media all and (max-width: 1200px) {
+    .border {
+        display: block;
+    }
+}
 
+.intro {
+    padding-top: 5%;
+    width: 30%;
+    background: #292a2a;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: right;
+}
+
+@media all and (max-width: 1200px) {
+    .intro {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #404242;
+        border-bottom: 1px solid #404242;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+}
+
+.intro h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.text {
+    width: 70%;
+    background: inherit;
+    align-items: center;
+    padding: 5%;
+}
+
+@media all and (max-width: 1200px) {
+    .text {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #404242;
+        border-bottom: 1px solid #404242;
+        padding: 3% 0;
+    }
+}
+
+.about p {
+    margin-left: 3%;
+}
+
+.location {
+    margin-bottom: 3%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    line-height: 4;
+    text-align: center;
+
+}
+
+@media all and (max-width: 1200px) {
+    .navigation {
+        line-height: 1.5;
+        display: block;
+
+    }
+}
+
+.navigation div a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation div a:hover {
+    color: #e0a80d;
+    cursor: pointer;
+    transition: transform 2s ease 0.7s, opacity 1.2s ease 0.7s;
+}
+
+.contacts {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1200px) {
+    .contacts {
+        justify-content: space-around;
+        width: 100%;
+
+    }
+}
+
+@media all and (max-width: 600px) {
+    .contacts {
+        display: block;
+
+    }
+}
+
+.contacts:first-child {
+    padding-right: 8%;
+
+}
+
+.contacts:last-child {
+    padding-left: 8%;
+}
+
+@media all and (max-width: 1200px) {
+    .contacts:last-child {
+        padding-left: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
+
+.hr {
+    height: 2px;
+    color: #ccc;
+    background: #ccc;
+    font-size: 0;
+    border: 0;
+    margin-bottom: 5%;
+}
+
+.surname {
+    color: #e0a80d;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.personName h1 {
+    line-height: 0.91;
+    font-size: 4.8rem;
+}
+
+@media all and (max-width: 1200px) {
+    .personName h1 {
+        font-size: 2.8rem;
+        line-height: 1;
+    }
+}
+
+.personContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1200px) {
+    .personContainer {
+        display: block;
+        text-align: center;
+    }
+}
+
+.soc {
+    align-self: end;
+}
+
+@media all and (max-width: 1200px) {
+    .soc {
+        margin-top: 5%;
+    }
+}
+
+.soc a {
+    margin-left: 10px;
+}
+
+.soc a:hover {
+    color: white;
+
+}
+
+.soc a svg path:hover {
+    fill: #e0a80d;
 }
