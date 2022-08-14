@@ -11,28 +11,28 @@ export const SectionFour = () => {
                 <div className={c.left}>
                     <div className={c.box}>
                         <span className={c.media}>80<small>%</small></span>
-                        <span className={c.mediaText}>some text</span>
+                        <span className={c.mediaText}>CSS</span>
+                        <div className={c.progressBar}>
+                            <div className={c.filler}>123</div>
+                        </div>
+                    </div>
+                    <div className={c.box}>
+                        <span className={c.media}>80<small>%</small></span>
+                        <span className={c.mediaText}>Git</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>
                     </div>
                     <div className={c.box}>
                         <span className={c.media}>80<small>%</small></span>
-                        <span className={c.mediaText}>some text</span>
-                        <div className={c.progressBar}>
-                            <div className={c.filler}></div>
-                        </div>
-                    </div>
-                    <div className={c.box}>
-                        <span className={c.media}>80<small>%</small></span>
-                        <span className={c.mediaText}>some text</span>
+                        <span className={c.mediaText}>React</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>
                     </div>
                     <div>
                         <span className={c.media}>80<small>%</small></span>
-                        <span className={c.mediaText}>some text</span>
+                        <span className={c.mediaText}>JS</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>

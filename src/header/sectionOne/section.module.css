@@ -1,5 +1,6 @@
 .border {
     display: flex;
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -54,7 +55,6 @@
     .img {
         margin: 0;
         width: 100%;
-        /*position: absolute;*/
     }
 }
 
@@ -78,14 +78,9 @@
     margin-left: 10px;
 }
 
-.soc a:hover {
-    color: white;
-
-}
-
 .soc a svg path:hover {
     fill: #e0a80d;
-
+    transition: all 0.4s ease-in-out 0s;
 }
 
 .surname {
@@ -96,10 +91,10 @@
 
 
 .img img {
-    max-height: 50%;
     display: block;
     border-radius: 100%;
     margin: 25% auto;
+    width: 60%;
 }
 
 @media all and (max-width: 1200px) {
@@ -174,6 +169,14 @@
 .navigation div a:hover {
     color: #e0a80d;
     cursor: pointer;
-    transition: transform 2s ease 0.7s, opacity 1.2s ease 0.7s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.name {
+    transition: all .5s;
+}
+
+.name:hover {
+    padding-left: 40px;
 }
 

@@ -6,10 +6,12 @@ import {SectionThree} from "./header/sectionThree/SectionThree";
 import {SectionFour} from "./header/sectionFour/SectionFour";
 import {SectionFive} from "./header/sectionFive/SectionFive";
 import {Footer} from "./header/footer/Footer";
+import {PArticle} from "./PArticle";
 
 function App() {
     return (
         <div className={c.app}>
+            <PArticle/>
             <Section/>
             <SectionDwa/>
             <SectionThree/>

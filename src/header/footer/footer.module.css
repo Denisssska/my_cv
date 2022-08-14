@@ -84,7 +84,7 @@
 .navigation div a:hover {
     color: #e0a80d;
     cursor: pointer;
-    transition: transform 2s ease 0.7s, opacity 1.2s ease 0.7s;
+    transition: all 0.4s ease-in-out 0s;
 }
 
 .contacts {
@@ -138,6 +138,7 @@
     color: #e0a80d;
     text-transform: uppercase;
     font-weight: 700;
+
 }
 
 .personName h1 {
@@ -185,4 +186,5 @@
 
 .soc a svg path:hover {
     fill: #e0a80d;
+    transition: all 0.4s ease-in-out 0s;
 }

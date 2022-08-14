@@ -10,26 +10,13 @@ export const SectionDwa = () => {
                     <p>What i am all about</p>
                 </div>
                 <div className={c.text}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto asperiores beatae
-                        corporis
-                        cupiditate ducimus ea earum eius et ex exercitationem laboriosam nihil nulla, repellendus saepe
-                        similique, sit tempora temporibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                    <p>
-                        Animi architecto asperiores beatae
-                        corporis
-                        cupiditate ducimus ea earum eius et ex exercitationem laboriosam nihil nulla, repellendus saepe
-                        similique, sit tempora temporibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Animi architecto asperiores beatae
-                        corporis
-                        cupiditate ducimus ea earum eius et ex exercitationem laboriosam nihil nulla, repellendus saepe
-                        similique, sit tempora temporibus.
+                    <p>Hello, I am a Front-End developer. I have experience in creating SPA with React/Redux/TypeScript.
+                        Now I am improving my skills in this direction and expanding them with new technologies. I spend
+                        my free time with educational books and also improve my English. Open for your suggestions.
                     </p>
                 </div>
-
             </div>
         </div>
-
     );
 };
 
