@@ -27,4 +27,5 @@ body {
     bottom: 0;
     right: 0;
     opacity: 0.3;
+    z-index: -1;
 }

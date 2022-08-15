@@ -1,12 +1,15 @@
 import React from 'react';
 import c from './section.module.css';
 import img from '../../img/face2.jpg';
+import {PArticle} from "../../PArticle";
 
 
 export const Section = () => {
     return (
         <div className={c.border}>
+            {/*<PArticle/>*/}
             <div className={c.img}>
+                <PArticle/>
                 <img src={img} alt="avatar"/>
             </div>
             <div className={c.text}>

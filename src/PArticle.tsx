@@ -1,16 +1,13 @@
 import React, {useCallback} from 'react';
-import {Container, Engine} from "tsparticles-engine";
+import {Container, Engine, ISourceOptions} from "tsparticles-engine";
 import {loadFull} from "tsparticles";
-import {Particles} from "react-tsparticles";
+// import {Particles} from "react-tsparticles";
 import c from './App.module.css';
+import {Particles} from "@blackbox-vision/react-particles";
+
 
 export const PArticle = () => {
-    const optionOne = {
-        background: {
-            color: {
-                value: "#0d47a1",
-            },
-        },
+    const optionsOne: ISourceOptions = {
         fpsLimit: 120,
         interactivity: {
             events: {
@@ -77,6 +74,7 @@ export const PArticle = () => {
         },
         detectRetina: true,
     };
+    const snow: ISourceOptions = {preset: "snow"}
 
     const particlesInit = useCallback(async (engine: Engine) => {
         console.log(engine);
@@ -92,74 +90,35 @@ export const PArticle = () => {
 
     return (
         <div className={c.particle}>
-            <Particles id="tsparticles" init={particlesInit}
-                       loaded={particlesLoaded} options={{
-                fpsLimit: 120,
-                interactivity: {
-                    events: {
-                        onClick: {
-                            enable: false,
-                            mode: "push",
+            <Particles
+                id="simple"
+                width="auto"
+                height="100vh"
+                style={{
+
+                    // backgroundColor: 'blue',
+                }}
+                params={{
+                    particles: {
+                        number: {
+                            value: 50,
                         },
-                        onHover: {
-                            enable: false,
-                            mode: "repulse",
-                        },
-                        resize: true,
-                    },
-                    modes: {
-                        push: {
-                            quantity: 4,
-                        },
-                        repulse: {
-                            distance: 200,
-                            duration: 0.4,
+                        size: {
+                            value: 3,
                         },
                     },
-                },
-                particles: {
-                    color: {
-                        value: "#ffffff",
-                    },
-                    links: {
-                        color: "#ffffff",
-                        distance: 150,
-                        enable: true,
-                        opacity: 0.5,
-                        width: 1,
-                    },
-                    collisions: {
-                        enable: true,
-                    },
-                    move: {
-                        direction: "none",
-                        enable: true,
-                        outModes: {
-                            default: "bounce",
+                    interactivity: {
+                        events: {
+                            onhover: {
+                                enable: true,
+                                mode: 'repulse',
+                            },
                         },
-                        random: false,
-                        speed: 6,
-                        straight: false,
                     },
-                    number: {
-                        density: {
-                            enable: true,
-                            area: 800,
-                        },
-                        value: 80,
-                    },
-                    opacity: {
-                        value: 0.5,
-                    },
-                    shape: {
-                        type: "circle",
-                    },
-                    size: {
-                        value: {min: 1, max: 5},
-                    },
-                },
-                detectRetina: true,
-            }}/>
+                }}
+            />
+            {/*<Particles id="tsparticles" init={particlesInit}*/}
+            {/*           loaded={particlesLoaded} options={snow}/>*/}
         </div>
     );
 };
