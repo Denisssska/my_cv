@@ -9,6 +9,7 @@ import {Footer} from "./header/footer/Footer";
 
 
 function App() {
+
     return (
         <div className={c.app}>
             <Section/>
