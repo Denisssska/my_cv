@@ -1,6 +1,6 @@
 import React from 'react';
 import c from './section.module.css';
-import img from '../../img/face2.jpg';
+import img from '../../img/news.png';
 import {PArticle} from "../../PArticle";
 
 
@@ -10,7 +10,8 @@ export const Section = () => {
             {/*<PArticle/>*/}
             <div className={c.img}>
                 <PArticle/>
-                <img src={img} alt="avatar"/>
+                <img style={{}} src={img}
+                     alt="avatar"/>
             </div>
             <div className={c.text}>
                 <h1 className={c.name}>Denis</h1>

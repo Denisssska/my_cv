@@ -80,6 +80,7 @@
     width: 60%;
 }
 
+
 @media all and (max-width: 1200px) {
     .img img {
         align-items: center;

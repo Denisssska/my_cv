@@ -6,6 +6,7 @@ import {SectionThree} from "./header/sectionThree/SectionThree";
 import {SectionFour} from "./header/sectionFour/SectionFour";
 import {SectionFive} from "./header/sectionFive/SectionFive";
 import {Footer} from "./header/footer/Footer";
+import {SectionForProject} from "./header/sectionForProject/SectionForProject";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <SectionThree/>
             <SectionFour/>
             <SectionFive/>
+            <SectionForProject/>
             <Footer/>
         </div>
 
