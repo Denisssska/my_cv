@@ -59,6 +59,11 @@
     padding-bottom: 2.7125rem;
 }
 
+.box a {
+    text-decoration: none;
+    color: #e0b80d;
+}
+
 @media all and (max-width: 1200px) {
     .box {
         display: block;
