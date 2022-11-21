@@ -100,7 +100,7 @@
 }
 
 .filler {
-    width: 70%;
+    width: 50%;
     background: #e0a80d;
     height: 100%;
     transition: width .5s ease-in-out .5s;

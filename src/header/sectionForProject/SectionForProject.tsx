@@ -1,6 +1,5 @@
 import React from 'react';
 import c from './sectionForProject.module.css';
-import {NavLink} from "react-router-dom";
 
 export const SectionForProject = () => {
     return (
@@ -14,8 +13,6 @@ export const SectionForProject = () => {
                     <div className={c.RightContainer}>
                         <div className={c.left}>
                             <div className={c.box}>
-                                <div className={c.number}>01</div>
-
                                 <div className={c.textInBox}>
                                     <h1>todolist</h1>
                                     <a target={"_blank"} href={'https://todolist000incubator.herokuapp.com/'}>View
@@ -23,8 +20,6 @@ export const SectionForProject = () => {
                                 </div>
                             </div>
                             <div className={c.box}>
-                                <div className={c.number}>02</div>
-
                                 <div className={c.textInBox}><h1>Blog</h1>
                                     <a target={"_blank"} href={'https://front-posts-denisssska.vercel.app/'}>View
                                         project</a>
@@ -32,9 +27,7 @@ export const SectionForProject = () => {
                             </div>
                         </div>
                         <div className={c.right}>
-
                             <div className={c.box}>
-                                <div className={c.number}>03</div>
                                 <div className={c.textInBox}>
                                     <h1>Cards</h1>
                                     <a target={"_blank"} href={'https://Denisssska.github.io/friday_project'}>View
@@ -42,8 +35,10 @@ export const SectionForProject = () => {
                                 </div>
                             </div>
                             <div className={c.box}>
-                                <div className={c.number}>04</div>
-                                <div className={c.textInBox}><h1>Shop</h1><p>Shop</p></div>
+                                <div className={c.textInBox}><h1>Next-app</h1>
+                                    <a target={"_blank"} href={'https://next-js-app-smoky-six.vercel.app/'}>View
+                                        project</a>
+                                </div>
                             </div>
 
                         </div>
