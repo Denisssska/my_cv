@@ -12,13 +12,6 @@
     }
 }
 
-.border div {
-
-    /*max-width: 80%;*/
-    /*padding-top: 5%;*/
-    padding-bottom: 5%;
-}
-
 @media all and (max-width: 1200px) {
     .border div {
         width: 100%;
@@ -39,7 +32,6 @@
 }
 
 .left, .right {
-
     width: 45%;
 
 }
@@ -54,23 +46,52 @@
     margin-right: 5%;
 }
 
+/*@media all and (max-width: 1200px) {*/
+/*    .number {*/
+/*    padding: 2%;*/
+/*    }*/
+/*}*/
 .box {
     margin: 0;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 2.7125rem;
 }
 
 @media all and (max-width: 1200px) {
     .box {
         display: block;
-
         border-bottom: 1px solid #404242;
     }
 }
 
+.textInBox {
+    height: 200px;
+    width: 100%;
+}
+
+@media all and (max-width: 1200px) {
+    .textInBox {
+        height: auto;
+
+    }
+}
+
+.textInBoxName {
+    cursor: pointer;
+
+}
+
+.textInBoxName:hover {
+    color: #e0a80d;
+}
+
+@media all and (max-width: 1200px) {
+    .textInBoxName {
+        padding: 2%;
+    }
+}
+
 .textInBox h1 {
-    width: 2.8rem;
     color: #979899;
     font-size: 1.2rem;
     line-height: 1.45;
@@ -80,10 +101,10 @@
 
 @media all and (max-width: 1200px) {
     .textInBox h1 {
-        margin: 0 auto;
+        padding-top: 5px;
         line-height: 1;
-        border-top: 1px solid #404242;
-        border-bottom: 1px solid #404242;
+        /*border-top: 1px solid #404242;*/
+        /*border-bottom: 1px solid #404242;*/
     }
 }
 
@@ -125,4 +146,21 @@
     margin-top: 5%;
 }
 
+.seeMoreContent {
+    opacity: 0;
+    padding-top: 2%;
+    animation: ani 2.5s forwards;
+    transform: translateY(-150%);
+    font-size: 15px;
+}
 
+@keyframes ani {
+    0% {
+        opacity: 0;
+        transform: translateY(-150%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -12,11 +12,9 @@ export const SectionFive = () => {
                 <div className={c.text}>
                     <div className={c.RightContainer}>
                         <div className={c.boxLine}>
-                            <div className={c.number}>
-                                <div className={c.timePoint}></div>
-                            </div>
+                            <div className={c.timePoint}></div>
                             <div className={c.textInBox}>
-                                <div className={c.timeWork}>2007-2015</div>
+                                <div className={c.timeWork}>2007-2012</div>
                                 <h1 className={c.workPlace}>Belarusian State agrarian University</h1>
                                 <h4 className={c.timeWorkTitle}>Mechanical Engineer</h4>
                             </div>
@@ -24,9 +22,7 @@ export const SectionFive = () => {
                             </div>
                         </div>
                         <div className={c.boxLine}>
-                            <div className={c.number}>
-                                <div className={c.timePoint}></div>
-                            </div>
+                            <div className={c.timePoint}></div>
                             <div className={c.textInBox}>
                                 <div className={c.timeWork}>2007-2015</div>
                                 <h1 className={c.workPlace}>IT Incubator</h1>
