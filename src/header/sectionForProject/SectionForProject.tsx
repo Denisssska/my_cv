@@ -7,6 +7,7 @@ export const SectionForProject = () => {
             <div className={c.border}>
                 <div className={c.intro}>
                     <h1>My Projects</h1>
+                    <p>Production</p>
                     <p>My education )</p>
                 </div>
                 <div className={c.text}>
@@ -14,14 +15,14 @@ export const SectionForProject = () => {
                         <div className={c.left}>
                             <div className={c.box}>
                                 <div className={c.textInBox}>
-                                    <h1>todolist</h1>
-                                    <a target={"_blank"} href={'https://todolist000incubator.herokuapp.com/'}>View
+                                    <h1>foodshare (prod)</h1>
+                                    <a target={"_blank"} href={'https://foodshare.club/'}>View
                                         project</a>
                                 </div>
                             </div>
                             <div className={c.box}>
                                 <div className={c.textInBox}><h1>Blog</h1>
-                                    <a target={"_blank"} href={'https://front-posts-denisssska.vercel.app/'}>View
+                                    <a target={"_blank"} href={'https://front-posts.vercel.app/'}>View
                                         project</a>
                                 </div>
                             </div>

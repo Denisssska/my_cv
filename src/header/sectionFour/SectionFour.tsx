@@ -10,28 +10,35 @@ export const SectionFour = () => {
             <div className={c.skillsParams}>
                 <div className={c.left}>
                     <div className={c.box}>
-                        <span className={c.media}>50<small>%</small></span>
+                        <span className={c.media}>80<small>%</small></span>
                         <span className={c.mediaText}>CSS</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>
                     </div>
                     <div className={c.box}>
-                        <span className={c.media}>50<small>%</small></span>
+                        <span className={c.media}>80<small>%</small></span>
                         <span className={c.mediaText}>Git</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>
                     </div>
                     <div className={c.box}>
-                        <span className={c.media}>50<small>%</small></span>
+                        <span className={c.media}>80<small>%</small></span>
                         <span className={c.mediaText}>React</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>
                     </div>
+                    <div className={c.box}>
+                        <span className={c.media}>60<small>%</small></span>
+                        <span className={c.mediaText}>Wordpress</span>
+                        <div className={c.progressBar}>
+                            <div className={c.filler}></div>
+                        </div>
+                    </div>
                     <div>
-                        <span className={c.media}>50<small>%</small></span>
+                        <span className={c.media}>70<small>%</small></span>
                         <span className={c.mediaText}>JS</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
@@ -43,7 +50,7 @@ export const SectionFour = () => {
                 <div className={c.right}>
                     <div className={c.box}>
                         <span className={c.media}>50<small>%</small></span>
-                        <span className={c.mediaText}>mongoDB</span>
+                        <span className={c.mediaText}>mongoDB, mySQL, PostgreSQL</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>
@@ -63,8 +70,8 @@ export const SectionFour = () => {
                         </div>
                     </div>
                     <div>
-                        <span className={c.media}>50<small>%</small></span>
-                        <span className={c.mediaText}>material UI</span>
+                        <span className={c.media}>80<small>%</small></span>
+                        <span className={c.mediaText}>material UI, Chakra UI</span>
                         <div className={c.progressBar}>
                             <div className={c.filler}></div>
                         </div>

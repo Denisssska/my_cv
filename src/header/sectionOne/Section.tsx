@@ -5,6 +5,9 @@ import {PArticle} from "../../PArticle";
 
 
 export const Section = () => {
+   const feedbackFunction =()=>{
+
+    }
     return (
         <div className={c.border}>
             {/*<PArticle/>*/}
@@ -61,14 +64,14 @@ export const Section = () => {
                     </div>
                     <div className={c.contacts}>
                         <div>
-                            <h4>Web</h4>
-                            <a href="#">
-                                <p>empty</p>
+                            <h4>Feedback</h4>
+                            <a  href={"#"}>
+                                <p onClick={feedbackFunction}>Feedback</p>
                             </a>
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <a href="#">
+                            <a href={"#"}>
                                 <p>yarmoshkoden18m@gmail.com</p>
                             </a>
                         </div>
